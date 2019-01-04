@@ -1,6 +1,6 @@
 {
   "name": "address-cn",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "提供中国省市区数据及提供查询操作",
   "main": "index.js",
   "scripts": {

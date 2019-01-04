@@ -8,7 +8,7 @@
 $ npm install --save address-cn
 ```
 
-### decode(<string>)
+### decode(addressCode)
 
 解析地址编码到具体地址
 
@@ -22,7 +22,7 @@ decode('110101');
 // => ['北京,北京市,东城区']
 ```
 
-### isMunicipality(<string>)
+### isMunicipality(addressCode|addressName)
 
 判断传入的是否为直辖市编码或名称
 
