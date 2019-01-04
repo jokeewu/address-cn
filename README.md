@@ -1,20 +1,20 @@
 # address-cn
 
-中国省市区国家编码数据及提供查询操作
+提供中国省市区国家编码数据及查询操作
 
-## 安装使用
+## 使用
 
 ```shell
 $ npm install --save address-cn
 ```
-
-## 方法
 
 ### decode(<string>)
 
 解析地址编码到具体地址
 
 ```javascript
+import { decode } from 'address-cn/decode';
+
 decode('110000');
 // => ['北京']
 
@@ -27,6 +27,8 @@ decode('110101');
 判断传入的是否为直辖市编码或名称
 
 ```javascript
+import { isMunicipality } from 'address-cn';
+
 isMunicipality('110000')
 // => true
 
