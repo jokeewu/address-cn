@@ -1,7 +1,7 @@
 {
   "name": "address-cn",
   "version": "1.0.0",
-  "description": "中国省市区数据，提供查询操作。",
+  "description": "提供中国省市区数据及提供查询操作",
   "main": "index.js",
   "scripts": {
     "test": "npm run test.js"
@@ -11,14 +11,17 @@
     "url": "git+https://github.com/jokeewu/address-cn.git"
   },
   "keywords": [
-    "address",
-    "city",
-    "中国省市区数据"
+    "中国",
+    "省市区",
+    "省市区国家编码数据"
   ],
   "author": "JackyCoder",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jokeewu/address-cn/issues"
   },
-  "homepage": "https://github.com/jokeewu/address-cn#readme"
+  "homepage": "https://github.com/jokeewu/address-cn#readme",
+  "devDependencies": {
+    "webpack": "^4.28.3"
+  }
 }
