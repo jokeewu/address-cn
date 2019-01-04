@@ -1,6 +1,6 @@
 # address-cn
 
-提供中国省市区国家编码数据及查询操作
+提供中国省市区编码数据及提供查询解析操作
 
 ## 使用
 
@@ -16,10 +16,10 @@ $ npm install --save address-cn
 import { decode } from 'address-cn/decode';
 
 decode('110000');
-// => ['北京']
+// => ['北京市']
 
 decode('110101');
-// => ['北京,北京市,东城区']
+// => ['北京市,东城区']
 ```
 
 ### isMunicipality(addressCode|addressName)

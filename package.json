@@ -1,7 +1,7 @@
 {
   "name": "address-cn",
-  "version": "1.0.4",
-  "description": "提供中国省市区数据及提供查询操作",
+  "version": "1.0.5",
+  "description": "提供中国省市区编码数据及提供查询解析操作",
   "main": "index.js",
   "scripts": {
     "build": "babel src -d lib",
@@ -13,9 +13,10 @@
     "url": "git+https://github.com/jokeewu/address-cn.git"
   },
   "keywords": [
-    "中国",
+    "address",
+    "decode",
     "省市区",
-    "省市区国家编码数据"
+    "省市区编码"
   ],
   "author": "JackyCoder",
   "license": "MIT",
