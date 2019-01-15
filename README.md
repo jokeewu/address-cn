@@ -16,10 +16,10 @@ $ npm install --save address-cn
 import { decode } from 'address-cn/decode';
 
 decode('110000');
-// => ['北京市']
+// => ['北京']
 
 decode('110101');
-// => ['北京市,东城区']
+// => ['北京,北京市,东城区']
 ```
 
 ### isMunicipality(addressCode|addressName)

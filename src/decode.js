@@ -23,7 +23,7 @@ function decode(code) {
   let cityCode = code.replace(/\d{2}$/, '00');
   // 直辖市省代码和市代码一样
   if (isMunicipality(code)) {
-    cityCode = code;
+    cityCode = provinceCode;
   }
   const regionCode = code;
 

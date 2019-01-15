@@ -1,10 +1,10 @@
 {
   "name": "address-cn",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "提供中国省市区编码数据及提供查询解析操作",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "rm -rf lib && babel src -d lib",
     "test": "mocha ./tests/index.js",
     "prepublish": "npm run build && npm run test"
   },
@@ -26,9 +26,11 @@
   "homepage": "https://github.com/jokeewu/address-cn#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-preset-env": "^1.7.0",
-    "mocha": "^5.2.0",
-    "webpack": "^4.28.3"
+    "babel-register": "^6.26.0",
+    "mocha": "^5.2.0"
   },
   "dependencies": {}
 }

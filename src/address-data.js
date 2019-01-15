@@ -4,144 +4,156 @@
 
 export default [
   {
-    label: '北京市',
+    label: '北京',
     value: '110000',
     children: [
       {
-        label: '东城区',
-        value: '110101',
+        label: '北京市',
+        value: '110000',
+        children: [
+          {
+            label: '东城区',
+            value: '110101',
+          },
+          {
+            label: '西城区',
+            value: '110102',
+          },
+          {
+            label: '朝阳区',
+            value: '110105',
+          },
+          {
+            label: '丰台区',
+            value: '110106',
+          },
+          {
+            label: '石景山区',
+            value: '110107',
+          },
+          {
+            label: '海淀区',
+            value: '110108',
+          },
+          {
+            label: '门头沟区',
+            value: '110109',
+          },
+          {
+            label: '房山区',
+            value: '110111',
+          },
+          {
+            label: '通州区',
+            value: '110112',
+          },
+          {
+            label: '顺义区',
+            value: '110113',
+          },
+          {
+            label: '昌平区',
+            value: '110114',
+          },
+          {
+            label: '大兴区',
+            value: '110115',
+          },
+          {
+            label: '怀柔区',
+            value: '110116',
+          },
+          {
+            label: '平谷区',
+            value: '110117',
+          },
+          {
+            label: '密云县',
+            value: '110228',
+          },
+          {
+            label: '延庆县',
+            value: '110229',
+          },
+        ],
       },
-      {
-        label: '西城区',
-        value: '110102',
-      },
-      {
-        label: '朝阳区',
-        value: '110105',
-      },
-      {
-        label: '丰台区',
-        value: '110106',
-      },
-      {
-        label: '石景山区',
-        value: '110107',
-      },
-      {
-        label: '海淀区',
-        value: '110108',
-      },
-      {
-        label: '门头沟区',
-        value: '110109',
-      },
-      {
-        label: '房山区',
-        value: '110111',
-      },
-      {
-        label: '通州区',
-        value: '110112',
-      },
-      {
-        label: '顺义区',
-        value: '110113',
-      },
-      {
-        label: '昌平区',
-        value: '110114',
-      },
-      {
-        label: '大兴区',
-        value: '110115',
-      },
-      {
-        label: '怀柔区',
-        value: '110116',
-      },
-      {
-        label: '平谷区',
-        value: '110117',
-      },
-      {
-        label: '密云县',
-        value: '110228',
-      },
-      {
-        label: '延庆县',
-        value: '110229',
-      },
-    ],
+    ]
   },
   {
     label: '天津市',
     value: '120000',
     children: [
       {
-        label: '和平区',
-        value: '120101',
+        label: '天津市',
+        value: '120000',
+        children: [
+          {
+            label: '和平区',
+            value: '120101',
+          },
+          {
+            label: '河东区',
+            value: '120102',
+          },
+          {
+            label: '河西区',
+            value: '120103',
+          },
+          {
+            label: '南开区',
+            value: '120104',
+          },
+          {
+            label: '河北区',
+            value: '120105',
+          },
+          {
+            label: '红桥区',
+            value: '120106',
+          },
+          {
+            label: '东丽区',
+            value: '120110',
+          },
+          {
+            label: '西青区',
+            value: '120111',
+          },
+          {
+            label: '津南区',
+            value: '120112',
+          },
+          {
+            label: '北辰区',
+            value: '120113',
+          },
+          {
+            label: '武清区',
+            value: '120114',
+          },
+          {
+            label: '宝坻区',
+            value: '120115',
+          },
+          {
+            label: '滨海新区',
+            value: '120116',
+          },
+          {
+            label: '宁河县',
+            value: '120221',
+          },
+          {
+            label: '静海县',
+            value: '120223',
+          },
+          {
+            label: '蓟县',
+            value: '120225',
+          },
+        ],
       },
-      {
-        label: '河东区',
-        value: '120102',
-      },
-      {
-        label: '河西区',
-        value: '120103',
-      },
-      {
-        label: '南开区',
-        value: '120104',
-      },
-      {
-        label: '河北区',
-        value: '120105',
-      },
-      {
-        label: '红桥区',
-        value: '120106',
-      },
-      {
-        label: '东丽区',
-        value: '120110',
-      },
-      {
-        label: '西青区',
-        value: '120111',
-      },
-      {
-        label: '津南区',
-        value: '120112',
-      },
-      {
-        label: '北辰区',
-        value: '120113',
-      },
-      {
-        label: '武清区',
-        value: '120114',
-      },
-      {
-        label: '宝坻区',
-        value: '120115',
-      },
-      {
-        label: '滨海新区',
-        value: '120116',
-      },
-      {
-        label: '宁河县',
-        value: '120221',
-      },
-      {
-        label: '静海县',
-        value: '120223',
-      },
-      {
-        label: '蓟县',
-        value: '120225',
-      },
-    ],
+    ]
   },
   {
     label: '河北省',
@@ -3580,78 +3592,84 @@ export default [
     ],
   },
   {
-    label: '上海市',
+    label: '上海',
     value: '310000',
     children: [
       {
-        label: '黄浦区',
-        value: '310101',
+        label: '上海市',
+        value: '310000',
+        children: [
+          {
+            label: '黄浦区',
+            value: '310101',
+          },
+          {
+            label: '徐汇区',
+            value: '310104',
+          },
+          {
+            label: '长宁区',
+            value: '310105',
+          },
+          {
+            label: '静安区',
+            value: '310106',
+          },
+          {
+            label: '普陀区',
+            value: '310107',
+          },
+          {
+            label: '闸北区',
+            value: '310108',
+          },
+          {
+            label: '虹口区',
+            value: '310109',
+          },
+          {
+            label: '杨浦区',
+            value: '310110',
+          },
+          {
+            label: '闵行区',
+            value: '310112',
+          },
+          {
+            label: '宝山区',
+            value: '310113',
+          },
+          {
+            label: '嘉定区',
+            value: '310114',
+          },
+          {
+            label: '浦东新区',
+            value: '310115',
+          },
+          {
+            label: '金山区',
+            value: '310116',
+          },
+          {
+            label: '松江区',
+            value: '310117',
+          },
+          {
+            label: '青浦区',
+            value: '310118',
+          },
+          {
+            label: '奉贤区',
+            value: '310120',
+          },
+          {
+            label: '崇明县',
+            value: '310230',
+          },
+        ],
       },
-      {
-        label: '徐汇区',
-        value: '310104',
-      },
-      {
-        label: '长宁区',
-        value: '310105',
-      },
-      {
-        label: '静安区',
-        value: '310106',
-      },
-      {
-        label: '普陀区',
-        value: '310107',
-      },
-      {
-        label: '闸北区',
-        value: '310108',
-      },
-      {
-        label: '虹口区',
-        value: '310109',
-      },
-      {
-        label: '杨浦区',
-        value: '310110',
-      },
-      {
-        label: '闵行区',
-        value: '310112',
-      },
-      {
-        label: '宝山区',
-        value: '310113',
-      },
-      {
-        label: '嘉定区',
-        value: '310114',
-      },
-      {
-        label: '浦东新区',
-        value: '310115',
-      },
-      {
-        label: '金山区',
-        value: '310116',
-      },
-      {
-        label: '松江区',
-        value: '310117',
-      },
-      {
-        label: '青浦区',
-        value: '310118',
-      },
-      {
-        label: '奉贤区',
-        value: '310120',
-      },
-      {
-        label: '崇明县',
-        value: '310230',
-      },
-    ],
+    ]
   },
   {
     label: '江苏省',
@@ -10318,162 +10336,168 @@ export default [
     ],
   },
   {
-    label: '重庆市',
+    label: '重庆',
     value: '500000',
     children: [
       {
-        label: '万州区',
-        value: '500101',
+        label: '重庆市',
+        value: '500000',
+        children: [
+          {
+            label: '万州区',
+            value: '500101',
+          },
+          {
+            label: '涪陵区',
+            value: '500102',
+          },
+          {
+            label: '渝中区',
+            value: '500103',
+          },
+          {
+            label: '大渡口区',
+            value: '500104',
+          },
+          {
+            label: '江北区',
+            value: '500105',
+          },
+          {
+            label: '沙坪坝区',
+            value: '500106',
+          },
+          {
+            label: '九龙坡区',
+            value: '500107',
+          },
+          {
+            label: '南岸区',
+            value: '500108',
+          },
+          {
+            label: '北碚区',
+            value: '500109',
+          },
+          {
+            label: '綦江区',
+            value: '500110',
+          },
+          {
+            label: '大足区',
+            value: '500111',
+          },
+          {
+            label: '渝北区',
+            value: '500112',
+          },
+          {
+            label: '巴南区',
+            value: '500113',
+          },
+          {
+            label: '黔江区',
+            value: '500114',
+          },
+          {
+            label: '长寿区',
+            value: '500115',
+          },
+          {
+            label: '江津区',
+            value: '500116',
+          },
+          {
+            label: '合川区',
+            value: '500117',
+          },
+          {
+            label: '永川区',
+            value: '500118',
+          },
+          {
+            label: '南川区',
+            value: '500119',
+          },
+          {
+            label: '璧山区',
+            value: '500120',
+          },
+          {
+            label: '铜梁区',
+            value: '500151',
+          },
+          {
+            label: '潼南县',
+            value: '500223',
+          },
+          {
+            label: '荣昌县',
+            value: '500226',
+          },
+          {
+            label: '梁平县',
+            value: '500228',
+          },
+          {
+            label: '城口县',
+            value: '500229',
+          },
+          {
+            label: '丰都县',
+            value: '500230',
+          },
+          {
+            label: '垫江县',
+            value: '500231',
+          },
+          {
+            label: '武隆县',
+            value: '500232',
+          },
+          {
+            label: '忠县',
+            value: '500233',
+          },
+          {
+            label: '开县',
+            value: '500234',
+          },
+          {
+            label: '云阳县',
+            value: '500235',
+          },
+          {
+            label: '奉节县',
+            value: '500236',
+          },
+          {
+            label: '巫山县',
+            value: '500237',
+          },
+          {
+            label: '巫溪县',
+            value: '500238',
+          },
+          {
+            label: '石柱土家族自治县',
+            value: '500240',
+          },
+          {
+            label: '秀山土家族苗族自治县',
+            value: '500241',
+          },
+          {
+            label: '酉阳土家族苗族自治县',
+            value: '500242',
+          },
+          {
+            label: '彭水苗族土家族自治县',
+            value: '500243',
+          },
+        ],
       },
-      {
-        label: '涪陵区',
-        value: '500102',
-      },
-      {
-        label: '渝中区',
-        value: '500103',
-      },
-      {
-        label: '大渡口区',
-        value: '500104',
-      },
-      {
-        label: '江北区',
-        value: '500105',
-      },
-      {
-        label: '沙坪坝区',
-        value: '500106',
-      },
-      {
-        label: '九龙坡区',
-        value: '500107',
-      },
-      {
-        label: '南岸区',
-        value: '500108',
-      },
-      {
-        label: '北碚区',
-        value: '500109',
-      },
-      {
-        label: '綦江区',
-        value: '500110',
-      },
-      {
-        label: '大足区',
-        value: '500111',
-      },
-      {
-        label: '渝北区',
-        value: '500112',
-      },
-      {
-        label: '巴南区',
-        value: '500113',
-      },
-      {
-        label: '黔江区',
-        value: '500114',
-      },
-      {
-        label: '长寿区',
-        value: '500115',
-      },
-      {
-        label: '江津区',
-        value: '500116',
-      },
-      {
-        label: '合川区',
-        value: '500117',
-      },
-      {
-        label: '永川区',
-        value: '500118',
-      },
-      {
-        label: '南川区',
-        value: '500119',
-      },
-      {
-        label: '璧山区',
-        value: '500120',
-      },
-      {
-        label: '铜梁区',
-        value: '500151',
-      },
-      {
-        label: '潼南县',
-        value: '500223',
-      },
-      {
-        label: '荣昌县',
-        value: '500226',
-      },
-      {
-        label: '梁平县',
-        value: '500228',
-      },
-      {
-        label: '城口县',
-        value: '500229',
-      },
-      {
-        label: '丰都县',
-        value: '500230',
-      },
-      {
-        label: '垫江县',
-        value: '500231',
-      },
-      {
-        label: '武隆县',
-        value: '500232',
-      },
-      {
-        label: '忠县',
-        value: '500233',
-      },
-      {
-        label: '开县',
-        value: '500234',
-      },
-      {
-        label: '云阳县',
-        value: '500235',
-      },
-      {
-        label: '奉节县',
-        value: '500236',
-      },
-      {
-        label: '巫山县',
-        value: '500237',
-      },
-      {
-        label: '巫溪县',
-        value: '500238',
-      },
-      {
-        label: '石柱土家族自治县',
-        value: '500240',
-      },
-      {
-        label: '秀山土家族苗族自治县',
-        value: '500241',
-      },
-      {
-        label: '酉阳土家族苗族自治县',
-        value: '500242',
-      },
-      {
-        label: '彭水苗族土家族自治县',
-        value: '500243',
-      },
-    ],
+    ]
   },
   {
     label: '四川省',
